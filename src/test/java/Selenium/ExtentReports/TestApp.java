@@ -14,9 +14,19 @@ public class TestApp
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com");
 		System.out.println(driver.getTitle());
+		driver.close();
 	}
 	
 	
+
+	@Test
+	public void goToApp()
+	{
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com");
+		System.out.println(driver.getTitle());
+		driver.close();
+	}
 	
 	
 	
